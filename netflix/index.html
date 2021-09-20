@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>N</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color:black;">
+    <selection style="color:silver;">
+        <div style="background-image: url('movie3.jpg');">
+            <header id="sign">
+                <a style="color:cyan;" href="signin.html">Sign In</a>
+            </header>
+            <h1 id="label" style="color:tomato;">NETFLIX</h1>
+
+            <sector style="color:ivory;">
+                <h1 id="main">Unlimited movies, TV shows, and more.</h1>
+
+                <p id="font">Watch anywhere. Cancel anytime.</p>
+                <p id="font">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="email-form">
+                    <div>
+                        <input type="text" name="email" id="email" autoComplete="email" maxLength="50" minLength="5" placeholder="Email address">
+                    </div>
+                    <div>
+                        <button> <a style="font-weight: 900"  href="signin.html">TRY 30 DAYS FREE</a>
+                        </button>
+                    </div>
+                </div>
+                <h3>Only new members are eligible for this offer.</h3>
+            </sector>
+        </div>
+
+        <hr class="new">
+<sector2>
+        <div id="text-left">
+            <h1>Enjoy on your TV.</h1>
+
+            <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>      
+        </div>
+
+        <div id="image-right">
+            <img src="tv2.jpeg" width="500" height="200" alt="" />
+        </div>
+
+</sector2>
+        <hr class="new">
+<sector3>
+        <div id="content-img-left">
+            <div id="image">
+                <img src="smart3.jpg" width="500" height="125" alt="" />
+            </div>
+            <div id="" class="text">Stranger Things Downloading...</div>           
+        </div>
+
+        <div id="text-right">
+            <h1>Download your shows to watch offline.</h1>
+
+            <p>Save your favorites easily and always have something to watch.</p>
+        </div>
+        </sector3>
+
+        <hr class="new">
+        <sector4>
+
+        <div id="text-left">
+            <h1>Watch everywhere.</h1>
+
+            <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
+            
+        </div>
+
+        <div id="image-right">
+            <img src="stream.jpg" width="500" height="200" alt="" />
+        </div>
+        </sector4>
+
+        <hr class="new">
+
+        <division>
+
+            <h1>Frequently Asked Questions</h1>
+
+            <ul class="faq-list">
+                <li class="faq-list-item">
+                    <button type="button" class="collapsible">What is Netflix?</button>
+                    <div style="color:darkblue;" class="content">
+                        <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices</p>
+                        <p>You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</p>
+                    </div>
+                </li>
+                <li class="faq-list-item">
+                    <button type="button" class="collapsible">How much does Netflix cost?</button>
+                    <div style="color:darkblue;" class="content">
+                        <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from EUR7.99 to EUR11.99 a month. No extra costs, no contracts.</p>
+                    </div>
+                </li>
+                <li class="faq-list-item">
+                    <button type="button" class="collapsible">Where can I watch?</button>
+                    <div style="color:darkblue;" class="content">
+                        <p>Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</p>
+                        <p>You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere</p>
+                    </div>
+                </li>
+                <li class="faq-list-item">
+                    <button type="button" class="collapsible">How do I cancel?</button>
+                    <div style="color:darkblue;" class="content">
+                        <p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime</p>
+                    </div>
+                </li>
+                <li class="faq-list-item">
+                    <button type="button" class="collapsible">What can I watch on Netflix?</button>
+                    <div style="color:darkblue;" class="content">
+                        <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want. Join free for 30 days to see everything Netflix has to offer.</p>
+                    </div>
+                </li>
+                <li class="faq-list-item">
+                    <button type="button" class="collapsible">How does the free trial work?</button>
+                    <div style="color:darkblue
+                       ;" class="content">
+                        <p>Try us free for 30 days! If you enjoy your Netflix trial, do nothing and your membership will automatically continue for as long as you choose to remain a member. Cancel anytime before your trial ends and you won’t be charged. There’s no complicated contract, no cancellation fees, and no commitment. Cancel online anytime, 24 hours a day</p>
+                    </div>
+                </li>
+            </ul>
+            <script>
+                var coll = document.getElementsByClassName("collapsible");
+                var i;
+
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var content = this.nextElementSibling;
+                        if (content.style.display === "block") {
+                            content.style.display = "none";
+                        } else {
+                            content.style.display = "block";
+                        }
+                    });
+                }
+
+            </script>
+
+            <p id="font">Ready to watch? Enter your email to create or restart your membership.</p>
+
+            <div class="email-form">
+                <div>                  
+                    <input type="text" name="email" id="email" autoComplete="email" maxLength="50" minLength="5" placeholder="Email address">
+                </div>
+
+                <div>
+                    <button class="custom"> <a style="font-weight: 900" href="signin.html">TRY 30 DAYS FREE</a>
+                    </button>
+                </div>
+            </div>
+        </division>
+
+        <hr class="new">
+
+        <footer>
+            <div class="a">
+                <a style="color:gray;" href="contact.html">Questions? Contact us.</a>
+                <ul class="no-bullets">
+                    <li><a style="color:gray;" href="faq.html">FAQ</a></li>
+                    <li><a style="color:gray;" href="investor.html">Investor Relations</a></li>
+                    <li><a style="color:gray;" href="privacy.html">Privacy</a></li>
+                    <li><a style="color:gray;" href="speed.html">Speed Test</a></li>
+                </ul>
+            </div>
+
+            <div class="b">
+                <ul class="no-bullets">
+                    <li><a style="color:gray;" href="help.html">Help Center</a></li>
+                    <li><a style="color:gray;" href="jobs.html">Jobs</a></li>
+                    <li><a style="color:gray;" href="cookie.html">Cookie Preferences</a></li>
+                    <li><a style="color:gray;" href="notices.html">Legal Notices</a></li>
+                </ul>
+            </div>
+            <div class="c">
+                <ul class="no-bullets">
+                    <li><a style="color:gray;" href="acc.html">Account</a></li>
+                    <li><a style="color:gray;" href="watch.html">Ways to Watch</a></li>
+                    <li><a style="color:gray;" href="inform.html">Corporate Information</a></li>
+                    <li><a style="color:gray;" href="netflix.html">Netflix Originals</a></li>
+                </ul>
+            </div>
+            <div class="d">
+                <ul class="no-bullets">
+                    <li><a style="color:gray;" href="media.html">Media Center</a></li>
+                    <li><a style="color:gray;" href="terms.html">Terms of Use</a></li>
+                    <li><a style="color:gray;" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </footer>
+    </selection>
+
+</body>
+
+</html>

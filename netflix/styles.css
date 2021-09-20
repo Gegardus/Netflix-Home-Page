@@ -1,0 +1,173 @@
+#main {
+    font-size: 50px;
+}
+
+#sign {
+    padding-right: 20px
+}
+
+#label {
+    padding-left: 30px
+}
+
+label {
+    width: 100px;
+    padding: 7px;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+div header {
+   text-align: right;
+}
+
+div sector {
+    text-align: center;
+}
+
+division {
+    text-align: center;
+}
+
+sector2 img {
+    width: 350px
+}
+
+sector3 img {
+    width: 300px
+}
+
+sector4 img {
+    width: 350px
+}
+
+.faq-list {
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+     text-align: left;
+}
+
+#image-right {
+  width: 40%;
+  float: left;
+  height: auto;
+  
+}
+
+#text-left {
+  width: 60%;
+  float: left;
+  text-align: left;
+  font-size: 20px;
+  height: auto;
+  padding-left: 0px
+}
+
+#text-right {
+  width: 40%;
+ float: left;
+ text-align: left;
+ font-size: 20px;
+  height: auto;
+}
+
+#content-img-left {
+  width: 60%;
+  float: left;
+  text-align: center;
+  height: auto;
+}
+
+#font {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+selection h3 {
+    color:yellow
+}
+
+.text {
+    font-size: 15px
+}
+
+body {
+    width:1000;
+}
+
+div.a {
+  width: 25%;
+  border: 1px solid black;
+  float: left;
+  color: gray;
+  margin-left: 50px;
+  padding-bottom: 20px
+}
+
+div.b {
+  width: 25%;
+  border: 1px solid black;
+  float: left;
+}
+
+div.c {
+  width: 25%;
+  border: 1px solid black;
+  float: left;
+}
+
+div.d {
+  width: 25;
+  border: 1px solid black;
+  float: left;
+}
+ul.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+hr.new { 
+border: 1px solid gray;
+}
+
+@media only screen and (max-width: 400px) {
+  body {    
+   margin-right: 400px;
+   margin-left: 20px;
+   width: 600px;
+   height: auto
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 750px) {
+body {   
+   margin-right: 100px;
+   margin-left: 20px;
+   width: 777px;
+   height: auto
+  }
+}
